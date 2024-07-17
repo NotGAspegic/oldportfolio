@@ -53,7 +53,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing in quest for new opportunities to show my dedication towards
+          In quest for new opportunities to show my dedication towards
           programming and Cybersecurity
         </p>
         <a href={CV} download>

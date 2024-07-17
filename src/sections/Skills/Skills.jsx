@@ -12,7 +12,7 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-      <SkillList src={checkMarkIcon} skill="Arduino" />
+        <SkillList src={checkMarkIcon} skill="Arduino" />
         <SkillList src={checkMarkIcon} skill="Raspberry Pi" />
         <SkillList src={checkMarkIcon} skill="ESP 32" />
         <SkillList src={checkMarkIcon} skill="Node-Red" />
@@ -32,7 +32,6 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Android Studio" />
-        <SkillList src={checkMarkIcon} skill="Flutter" />
         <SkillList src={checkMarkIcon} skill="Firebase" />
         <SkillList src={checkMarkIcon} skill="MYSQL" />
         <SkillList src={checkMarkIcon} skill="Java" />
@@ -51,8 +50,6 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Unity" />
         <SkillList src={checkMarkIcon} skill="Unreal Engine" />
         <SkillList src={checkMarkIcon} skill="C#" />
-        <SkillList src={checkMarkIcon} skill="Photoshop" />
-        <SkillList src={checkMarkIcon} skill="Microsoft office" />
       </div>
     </section>
   );
