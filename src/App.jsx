@@ -9,7 +9,6 @@ import Header from './sections/Header/Header';
 function App() {
   return (
     <>
-      <Header />
       <Hero />
       <Projects />
       <Skills />

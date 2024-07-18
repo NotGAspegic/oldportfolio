@@ -2,8 +2,8 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/WEBPIC.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterDark from '../../assets/fblight.svg';
-import twitterLight from '../../assets/fbdark.svg';
+import twitterDark from '../../assets/twitter-dark.svg';
+import twitterLight from '../../assets/twitter-light.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
@@ -42,9 +42,6 @@ function Hero() {
         </h1>
         <h2>Software Developer</h2>
         <span>
-          <a href="https://www.facebook.com/souhail.smiri.3" target="_blank">
-            <img src={twitterIcon} alt="Facebook icon" />
-          </a>
           <a href="https://github.com/NotGAspegic" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
